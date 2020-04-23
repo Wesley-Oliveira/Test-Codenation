@@ -1,0 +1,13 @@
+{
+  "name": "Test-Codenation",
+  "version": "1.0.0",
+  "main": "teste.js",
+  "repository": "https://github.com/Wesley-Oliveira/Test-Codenation.git",
+  "author": "Wesley-Oliveira <wesley0leby@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "js-sha1": "^0.6.0",
+    "sucrase": "^3.13.0"
+  }
+}
