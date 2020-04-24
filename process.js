@@ -1,7 +1,6 @@
-//import axios from 'axios';
 const axios = require("axios");
-const fs = require("fs");
 const sha1 = require ('js-sha1');
+const fs = require("fs");
 
 let api = axios.create();
 
@@ -81,5 +80,3 @@ api.get('https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=4377
     .catch(function(error) {
         console.warn(error);
     })
-
-//api.post('')
